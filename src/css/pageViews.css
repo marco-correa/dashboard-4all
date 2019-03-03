@@ -1,0 +1,8 @@
+#pageViews{
+    padding: 0;
+}
+#pageViews #chart{
+    position: relative;
+    opacity: 1;
+    animation: animateComponent 1s;
+}

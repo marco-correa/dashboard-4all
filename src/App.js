@@ -1,28 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-class App extends Component {
+import Widget from './componentes/Widget';
+import PageViews from './componentes/PageViews';
+import Chat from './componentes/Chat';
+
+import 'bootstrap/dist/css/bootstrap.css';
+import './css/common.css';
+
+export default class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <main>
+        <h1>Dashboard</h1>
+      
+        <Widget />
+        <PageViews />
+        <Chat />
+        
+      </main>
     );
   }
 }
-
-export default App;
