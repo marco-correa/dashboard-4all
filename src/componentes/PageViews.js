@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import axios from "axios";
 import 'promise-polyfill/src/polyfill';
+import 'polyfill-array-includes';
 import { Chart } from "react-google-charts";
 
 import './../css/pageViews.css';
