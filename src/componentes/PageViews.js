@@ -25,7 +25,7 @@ export default class PageViews extends Component {
         titleTextStyle: {fontSize: '20', fontName: 'Helvetica', bold: false},
         hAxis: {titleTextStyle: {color: '#333'}},
         vAxis: {minValue: 0},
-        chartArea: {width: '90%', height:'65%', top: '70'},
+        chartArea: {width: '80%', height:'65%', top: '70'},
         pointSize: 5
       }
     };
